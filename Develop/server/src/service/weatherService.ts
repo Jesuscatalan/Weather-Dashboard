@@ -11,8 +11,7 @@ interface Coordinates {
 
 
 
-// TODO: Complete the WeatherService class
-class WeatherService { 
+// TODO: Complete the WeatherService class 
   class Weather {
     city: string;
     date: string;

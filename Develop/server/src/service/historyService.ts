@@ -12,8 +12,7 @@ class City {
 }
 // TODO: Complete the HistoryService class
 class HistoryService {
-
-  // TODO: Define a read method that reads from the searchHistory.json file
+ // TODO: Define a read method that reads from the searchHistory.json file
   // private async read() {}
   private async read() {
     const filePath = './db/searchHistory.json';
@@ -61,3 +60,4 @@ class HistoryService {
       return [];
     }
   }
+}
